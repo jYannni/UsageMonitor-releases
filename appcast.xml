@@ -4,30 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>UsageMonitor</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Sun, 04 Oct 2026 22:33:06 +0300</pubDate>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>0.1.2</title>
+            <pubDate>Mon, 05 Oct 2026 14:03:58 +0300</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# UsageMonitor 0.1.1
+            <description sparkle:format="markdown"><![CDATA[# UsageMonitor 0.1.2
 
-- Claude: the macOS Keychain prompt should no longer come back every time
-  Claude Code refreshes its sign-in. The credential is now read the same way
-  Claude Code writes it.
-- Ollama: enter your session and weekly reset times from ollama.com/settings
-  under Settings → Providers → Ollama → Reset times. The card then shows when
-  each limit resets, with the time-remaining shading. A passed session reset
-  clears itself; the weekly one repeats every 7 days.
-
-This is also the first update delivered through Check for Updates…. If it
-does not install cleanly, download it from
-https://github.com/jYannni/UsageMonitor-releases.
+- Antigravity: the quota now stays current while Antigravity is closed.
+  UsageMonitor starts Antigravity's own language server in the background,
+  with no window, and reads the quota from it. It uses the sign-in Antigravity
+  already has, and stops when Antigravity opens, when UsageMonitor quits, or
+  after 20 minutes without a reading. Antigravity has to be installed and
+  signed in once. PRIVACY.md describes what this server sends to Google and
+  where it keeps its state.
 ]]></description>
-            <enclosure url="https://github.com/jYannni/UsageMonitor-releases/releases/download/v0.1.1/UsageMonitor-0.1.1-arm64.dmg" length="2948658" type="application/octet-stream" sparkle:edSignature="BgW6S/8rOBSEiA8wOKufk/eflM1wPiax4eCkJ0NDZX5skK3EfYZrFGx8aPmIaTKqp7cc24wM1G8JsuGlcJMiDA=="></enclosure>
+            <enclosure url="https://github.com/jYannni/UsageMonitor-releases/releases/download/v0.1.2/UsageMonitor-0.1.2-arm64.dmg" length="2960403" type="application/octet-stream" sparkle:edSignature="zsJrHOqvi4eTl0MhWbau5DUc+RFTmUY+MPQyVjWfW5NSwc4SNJcpjqxHikKn52CgqARYn34TY9j+MAAkqjDeBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Yl1g3qKmjf8osyWNlH7hb9trP1hGi6VofCSVWiLgMt4ybLx8ZB4JbwlVgmJ99jacgIrxoZIn5zhXm0hcgfBPBA==
-length: 1886
+edSignature: 8V/vWm8+CyvPM+REmB5MEOmCC4MpslxZj2Z5OYIeMQGsu1oHPqXzfh++tY9h1bZhGg7EtZ5Wl9B3PQ68Eq89CA==
+length: 1729
 -->
